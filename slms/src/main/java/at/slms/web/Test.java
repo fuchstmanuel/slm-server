@@ -14,9 +14,6 @@ import java.io.Serializable;
 @Stateless
 public class Test {
 
-    @PersistenceContext
-    private EntityManager em;
-
     @GET
     //@Produces(MediaType.APPLICATION_JSON)
     public Response testGetter() {
