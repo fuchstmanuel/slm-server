@@ -21,7 +21,7 @@ public class Test {
     //@Produces(MediaType.APPLICATION_JSON)
     public Response testGetter() {
 
-        return Response.ok("hi web")
+        return Response.ok("hi webpage")
                 .build();
     }
 }
